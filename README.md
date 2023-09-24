@@ -7,7 +7,7 @@
 
 3. Install dependencies.
 
-4. Add variable WIDGET_BUILDER_API_HASH with store hash into the .env file.
+4. Add variable ``WIDGET_BUILDER_API_HASH`` with store hash into the ``.env`` file.
 
 ## Executable:
 #### To run from project directory:
