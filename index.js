@@ -30,7 +30,7 @@ import {
       .then(async (answers) => {
         if (answers.menuChoice === 'Get all widget-templates') {
           await getAllWidgetTemplates();
-        } else if (answers.menuChoice === 'Get a specif template by name') {
+        } else if (answers.menuChoice === 'Get a specific template by name') {
           inquirer
             .prompt([
               {
@@ -42,7 +42,7 @@ import {
             .then(async (templateAnswers) => {
               await getWidgetTemplateByName(templateAnswers.templateName);
             });
-        } else if (answers.menuChoice === 'Get a specif template by name (select from list)') {
+        } else if (answers.menuChoice === 'Get a specific template by name (select from list)') {
           getTemplateByNameFromList();
         } else if (answers.menuChoice === 'Update widget') {
           inquirer
